@@ -15,6 +15,5 @@ setuptools.setup(
     project_urls={
         "Bug Tracker": "https://github.com/mmccollom/ercot_mis_pylib/issues"
     },
-    packages=['src'],
     install_requires=['requests>=2.5.0'],
 )

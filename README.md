@@ -1,6 +1,9 @@
 # ERCOT Python Utility
 This library aims to ease the use of the ERCOT MIS system.
 
+### How to install
+    pip install ercotutils
+
 ### How to use
     from ercotutils import misutil
     

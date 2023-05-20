@@ -10,9 +10,11 @@ def get_ice_doc_list(report_id: str) -> dict:
     Get a list of documents for a given report type id
 
     Parameters:
+    ----------
         report_id (str): The report type id to get documents for
 
     Returns:
+    ----------
         dict: A dictionary of documents
     """
 
@@ -28,9 +30,11 @@ def get_zipped_file_contents(document_id: str) -> bytes:
     Get the contents of a zipped file from a url
 
     Parameters:
+    ----------
         url (str): The url to get the zipped file from
 
     Returns:
+    ----------
         bytes: The contents of the zipped file
     """
     url = f'https://www.ercot.com/misdownload/servlets/mirDownload?doclookupId={document_id}'

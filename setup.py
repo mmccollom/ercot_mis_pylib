@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='ercotutils',
-    version='1.0.0',
+    version='1.1.0',
     author='Matthew McCollom',
     author_email='matthewmccollom1989@gmail.com',
     description="ERCOT utils for Python",
